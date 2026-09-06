@@ -1,0 +1,25 @@
+{
+  "name": "chess-app-2",
+  "version": "1.0.0",
+  "description": "3D chess app (Three.js) - test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://localhost:26831/balasaimodepalli-prog/chess-app-2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "vite": "^8.2.2"
+  }
+}
